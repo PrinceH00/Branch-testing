@@ -2,11 +2,11 @@ public class Dog extends Animal{
 
     @Override
     public void makeSound() {
-        System.out.println("Wuuf!");
+        System.out.println("Wuf!");
     }
 
     @Override
-    public boolean eat(String foodtype) {
+    public boolean eat(String foodType) {
         return true;
     }
 }
